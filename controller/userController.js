@@ -36,3 +36,7 @@ exports.creatUser = async(req,res,next)=>{
       res.json({ success: true });
     });
   };
+
+exports.working = async(req,res,next)=>{
+  res.send("<h1>Working</h1>")
+}
