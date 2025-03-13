@@ -13,8 +13,8 @@ exports.creatUser = async(req,res,next)=>{
       // Specify your email service provider
       service: 'Gmail',
       auth: {
-        user: 'muhammadhassanqureshi987@gmail.com', // Replace with your email address
-        pass: 'jouggcccrpqkmsuu' // Replace with your email password or generate an app password
+        user: 'Your Email', // Replace with your email address
+        pass: 'Your Password' // Replace with your email password or generate an app password
       }
     });
   
